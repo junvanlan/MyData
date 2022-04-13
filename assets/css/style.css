@@ -6,6 +6,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Tạo 1 thẻ div chứa class clear này giúp class cha ôm được hết các class con */
