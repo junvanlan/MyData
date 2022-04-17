@@ -4,6 +4,20 @@
     }
 }
 
+@media (max-width: 1023px){   /*chung cho mobile and tablet */
+    .btn {
+        padding: 14px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social {
+        font-size: 48px;
+    }
+}
+
 @media (min-width: 740px) and (max-width: 1023px){
     .bar-menu {
         display: none;
@@ -11,10 +25,53 @@
 }
 
 @media (max-width: 739px){
+    .s-col-full {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+    
+    #nav,
     #nav > li {
         display: block;
     }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .subnav > li > a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    .bar-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
     .search-btn {
         display: none;
+    }
+
+    .member-item {
+        width: 100%;
+    }
+
+    #content .member-picture {
+        width: 60%; 
+        height: auto;
     }
 }

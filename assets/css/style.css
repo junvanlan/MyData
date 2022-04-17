@@ -95,7 +95,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav{
@@ -153,6 +152,10 @@ html {
     width: 62px;
 }
 
+.bar-menu {
+    display: none;
+}
+
 .search-btn:hover {
     background-color: red;
     cursor: pointer;
@@ -208,6 +211,7 @@ html {
     margin-top: 25px;
     font-weight: 700;
     font-size: 15px;
+    text-shadow: 0 0 4px #000;
 }
 
 #content{
@@ -302,7 +306,7 @@ html {
 }
 
 #content .tour-location {
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 48px;
 }
 
@@ -348,7 +352,7 @@ html {
 }
 
 #content .contact-content {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .contact-info {
